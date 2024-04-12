@@ -1,0 +1,296 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+
+/* HEADER*/
+
+#topo{
+    
+    display: flex;
+    margin-bottom: 2%;
+    align-items: center;
+    
+}
+
+.logo{
+width: 45%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.links{
+width: 40%;
+
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.links li a{
+    color: black;
+    text-decoration: none;
+
+}
+
+/* FIM DO HEADER*/
+
+
+/* PRIMEIRA SECTION*/
+
+
+#home{
+    display: flex;
+    width: 100%;
+    background-color: #CAFAD9;
+    justify-content: center;
+    height: 450px;
+
+}
+
+.recrutamento-global{
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.recrutamento-global .textao{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.recrutamento-global .textinho{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.recrutamento-global .textinho2{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.recrutamento-global .botoes{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+    
+}
+
+.image-home{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* FIM DA PRIMEIRA SECTION*/
+
+
+
+
+/* SEGUNDA SECTION*/
+
+#section-2{
+    width: 100%;
+    background-color: #e5ede5;
+    
+    
+}
+
+.principios{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.medalhas{
+    display: flex;
+    justify-content: center;
+}
+
+.medalhas img{
+    width: 13%;
+}
+
+.medalhas .setas{
+    width: 5%;
+    height: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* FIM DA SEGUNDA SECTION*/
+
+
+
+
+/* COMEÇO SECTION RECURSOS*/
+
+
+#recursos{
+    margin-top: 5%;
+}
+
+#recursos .botao-mais-recursos{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+#recursos .botao-mais-recursos button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#recursos .recursos-para-voce{
+    display: flex;
+    justify-content: center;
+}
+
+.secao-recursos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.direita{
+    width: 30%;
+    background-color: #F7F8F7;
+    
+}
+
+.esquerda{
+    
+    width: 30%;
+}
+
+.esquerda .empregador-remoto{
+    display: flex;
+    background-color: pink;
+    
+}
+
+.esquerda .politica-trabalho{
+    margin-top: 20%;
+    
+    background-color: rgb(80, 80, 232);
+}
+
+.esquerda .apenas-texto{
+    width: 50%;
+    font-size: 13px;
+    text-align: center;
+}
+
+.leia-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+/* FIM SECTION RECURSOS*/
+
+
+
+
+/* COMEÇO SECTION CONTRATE*/
+
+#contrate{
+    background-color:#CAFAD9; 
+    display: flex;
+    justify-content: center;
+}
+
+#contrate .contrate h2{
+    text-align: center;
+}
+
+.contrate .botao{
+    display: flex;
+    justify-content: center;
+}
+
+/* FIM SECTION CONTRATE*/
+
+
+
+
+/* INICIO DA SECTION CONTRATO*/
+
+
+#contatos{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+#contatos .contatos{
+    width: 10%;
+    
+}
+
+#contatos .redes-sociais{
+    width: 10%;
+    
+}
+
+.redes-sociais .redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* FIM DA SECTION CONTRATO*/
+
+
+
+
+/* Media Queryes*/
+
+@media (max-width: 836px){
+
+.recrutamento-global{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image-home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+}
+
+
+
+
